@@ -1,0 +1,16 @@
+# Official scenario: nine simulated months at the base daily volume, baseline churn.
+name: official_1x
+seed: 20260101
+profile: default
+days: 273
+base_days: 182
+volume:
+  scale: 1.0
+  ramp_last_over_first: 1.9
+churn_multiplier: 1.0
+rework_rate: 0.01
+duplicates: {enabled: true}
+anomalies: {enabled: true}
+cohorts:
+  - {segment: SEG_032, day: 90, effect: 0.35, background: 0.05}
+  - {segment: SEG_040, day: 200, effect: 0.30, background: 0.05}

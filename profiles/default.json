@@ -1,0 +1,1519 @@
+{
+ "schema_version": 1,
+ "materials": [
+  {
+   "id": "MAT_01",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_02",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_03",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_04",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_05",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_06",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_07",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_08",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_09",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_10",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_11",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_12",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_13",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_14",
+   "regime": "discrete"
+  },
+  {
+   "id": "MAT_15",
+   "regime": "roll"
+  },
+  {
+   "id": "MAT_16",
+   "regime": "roll"
+  },
+  {
+   "id": "MAT_17",
+   "regime": "roll"
+  },
+  {
+   "id": "MAT_18",
+   "regime": "roll"
+  },
+  {
+   "id": "MAT_24",
+   "regime": "roll"
+  },
+  {
+   "id": "MAT_25",
+   "regime": "roll"
+  },
+  {
+   "id": "MAT_19",
+   "regime": "mass"
+  },
+  {
+   "id": "MAT_20",
+   "regime": "mass"
+  },
+  {
+   "id": "MAT_21",
+   "regime": "mass"
+  },
+  {
+   "id": "MAT_22",
+   "regime": "mass"
+  },
+  {
+   "id": "MAT_23",
+   "regime": "mass"
+  }
+ ],
+ "segments": [
+  {
+   "id": "SEG_001",
+   "class": "storage_move",
+   "regime": "discrete",
+   "n_equipment": 40,
+   "n_operators": 90,
+   "gap_min": 25,
+   "duration_s": 0,
+   "scrap_rate": 0.06,
+   "useasis_rate": 0.08
+  },
+  {
+   "id": "SEG_002",
+   "class": "storage_move",
+   "regime": "discrete",
+   "n_equipment": 40,
+   "n_operators": 90,
+   "gap_min": 900,
+   "duration_s": 0,
+   "scrap_rate": 0.05,
+   "useasis_rate": 0.07
+  },
+  {
+   "id": "SEG_004",
+   "class": "storage_move",
+   "regime": "discrete",
+   "n_equipment": 6,
+   "n_operators": 20,
+   "gap_min": 240,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_005",
+   "class": "storage_move",
+   "regime": "roll",
+   "n_equipment": 2,
+   "n_operators": 8,
+   "gap_min": 1400,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_007",
+   "class": "storage_move",
+   "regime": "discrete",
+   "n_equipment": 4,
+   "n_operators": 12,
+   "gap_min": 30,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_008",
+   "class": "storage_move",
+   "regime": "mass",
+   "n_equipment": 1,
+   "n_operators": 4,
+   "gap_min": 2000,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_009",
+   "class": "transformation",
+   "regime": "discrete",
+   "n_equipment": 2,
+   "n_operators": 6,
+   "gap_min": 45,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_010",
+   "class": "transformation",
+   "regime": "discrete",
+   "n_equipment": 2,
+   "n_operators": 10,
+   "gap_min": 120,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_011",
+   "class": "transformation",
+   "regime": "discrete",
+   "n_equipment": 3,
+   "n_operators": 15,
+   "gap_min": 200,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_012",
+   "class": "transformation",
+   "regime": "discrete",
+   "n_equipment": 1,
+   "n_operators": 4,
+   "gap_min": 5,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_013",
+   "class": "transformation",
+   "regime": "discrete",
+   "n_equipment": 2,
+   "n_operators": 30,
+   "gap_min": 40,
+   "duration_s": 300,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_014",
+   "class": "transformation",
+   "regime": "discrete",
+   "n_equipment": 3,
+   "n_operators": 20,
+   "gap_min": 15,
+   "duration_s": 40,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_015",
+   "class": "transformation",
+   "regime": "discrete",
+   "n_equipment": 1,
+   "n_operators": 8,
+   "gap_min": 90,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_016",
+   "class": "transformation",
+   "regime": "discrete",
+   "n_equipment": 1,
+   "n_operators": 6,
+   "gap_min": 300,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_017",
+   "class": "transformation",
+   "regime": "mass",
+   "n_equipment": 1,
+   "n_operators": 5,
+   "gap_min": 600,
+   "duration_s": 1800,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_018",
+   "class": "transformation",
+   "regime": "roll",
+   "n_equipment": 1,
+   "n_operators": 5,
+   "gap_min": 1500,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_019",
+   "class": "transformation",
+   "regime": "roll",
+   "n_equipment": 1,
+   "n_operators": 5,
+   "gap_min": 2400,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_020",
+   "class": "transformation",
+   "regime": "roll",
+   "n_equipment": 1,
+   "n_operators": 5,
+   "gap_min": 1800,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_021",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 2,
+   "n_operators": 12,
+   "gap_min": 30,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_022",
+   "class": "creation",
+   "regime": "mass",
+   "n_equipment": 1,
+   "n_operators": 4,
+   "gap_min": 0,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_023",
+   "class": "creation",
+   "regime": "roll",
+   "n_equipment": 1,
+   "n_operators": 4,
+   "gap_min": 0,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_024",
+   "class": "creation",
+   "regime": "roll",
+   "n_equipment": 1,
+   "n_operators": 4,
+   "gap_min": 0,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_027",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 1,
+   "n_operators": 10,
+   "gap_min": 12,
+   "duration_s": 0,
+   "scrap_rate": 0.12,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_028",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 2,
+   "n_operators": 25,
+   "gap_min": 25,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.02
+  },
+  {
+   "id": "SEG_031",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 3,
+   "n_operators": 18,
+   "gap_min": 3,
+   "duration_s": 0,
+   "scrap_rate": 0.03,
+   "useasis_rate": 0.005
+  },
+  {
+   "id": "SEG_032",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 6,
+   "n_operators": 60,
+   "gap_min": 150,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_034",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 1,
+   "n_operators": 12,
+   "gap_min": 10,
+   "duration_s": 0,
+   "scrap_rate": 0.002,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_035",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 1,
+   "n_operators": 10,
+   "gap_min": 12,
+   "duration_s": 0,
+   "scrap_rate": 0.12,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_037",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 4,
+   "n_operators": 40,
+   "gap_min": 8,
+   "duration_s": 0,
+   "scrap_rate": 0.01,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_038",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 1,
+   "n_operators": 6,
+   "gap_min": 60,
+   "duration_s": 8,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_039",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 3,
+   "n_operators": 18,
+   "gap_min": 3,
+   "duration_s": 0,
+   "scrap_rate": 0.03,
+   "useasis_rate": 0.005
+  },
+  {
+   "id": "SEG_040",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 6,
+   "n_operators": 60,
+   "gap_min": 150,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_041",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 2,
+   "n_operators": 30,
+   "gap_min": 40,
+   "duration_s": 30,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.03
+  },
+  {
+   "id": "SEG_042",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 1,
+   "n_operators": 12,
+   "gap_min": 10,
+   "duration_s": 0,
+   "scrap_rate": 0.002,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_043",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 1,
+   "n_operators": 10,
+   "gap_min": 12,
+   "duration_s": 0,
+   "scrap_rate": 0.12,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_044",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 2,
+   "n_operators": 25,
+   "gap_min": 25,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.02
+  },
+  {
+   "id": "SEG_047",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 3,
+   "n_operators": 18,
+   "gap_min": 3,
+   "duration_s": 0,
+   "scrap_rate": 0.03,
+   "useasis_rate": 0.005
+  },
+  {
+   "id": "SEG_050",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 1,
+   "n_operators": 12,
+   "gap_min": 10,
+   "duration_s": 0,
+   "scrap_rate": 0.002,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_053",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 4,
+   "n_operators": 40,
+   "gap_min": 8,
+   "duration_s": 0,
+   "scrap_rate": 0.01,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_054",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 1,
+   "n_operators": 6,
+   "gap_min": 60,
+   "duration_s": 8,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_055",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 3,
+   "n_operators": 18,
+   "gap_min": 3,
+   "duration_s": 0,
+   "scrap_rate": 0.03,
+   "useasis_rate": 0.005
+  },
+  {
+   "id": "SEG_056",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 6,
+   "n_operators": 60,
+   "gap_min": 150,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_057",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 24,
+   "n_operators": 40,
+   "gap_min": 15,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_058",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 2,
+   "n_operators": 4,
+   "gap_min": 30,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  },
+  {
+   "id": "SEG_059",
+   "class": "line_step",
+   "regime": "discrete",
+   "n_equipment": 1,
+   "n_operators": 2,
+   "gap_min": 60,
+   "duration_s": 0,
+   "scrap_rate": 0.0,
+   "useasis_rate": 0.0
+  }
+ ],
+ "template": {
+  "epoch": "2000-01-03T00:00:00Z",
+  "shift_hours": [
+   6,
+   22
+  ],
+  "weekday_factor": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.95,
+   0.75,
+   0.65
+  ],
+  "weekend_defer": 0.1,
+  "batch_release": {
+   "segments": [
+    "SEG_002",
+    "SEG_004",
+    "SEG_007"
+   ],
+   "slot_hours": [
+    6,
+    8.5,
+    11,
+    13.5,
+    16,
+    18.5,
+    21
+   ],
+   "jitter_min": 75
+  },
+  "gap_sigma": 0.9,
+  "name_families": {
+   "MAT_01": [
+    "SH",
+    10
+   ],
+   "MAT_03": [
+    "PN",
+    10
+   ],
+   "MAT_07": [
+    "EL",
+    10
+   ],
+   "MAT_02": [
+    "CL",
+    12
+   ],
+   "MAT_13": [
+    "PC",
+    12
+   ],
+   "MAT_12": [
+    "MD",
+    10
+   ],
+   "MAT_14": [
+    "PK",
+    10
+   ],
+   "MAT_08": [
+    "FA",
+    10
+   ],
+   "MAT_15": [
+    "CT",
+    10
+   ],
+   "MAT_16": [
+    "FR",
+    10
+   ],
+   "MAT_17": [
+    "ER",
+    10
+   ],
+   "MAT_18": [
+    "GR",
+    10
+   ],
+   "MAT_24": [
+    "RE",
+    10
+   ],
+   "MAT_19": [
+    "SL",
+    10
+   ],
+   "MAT_20": [
+    "PW",
+    10
+   ],
+   "MAT_21": [
+    "SV",
+    10
+   ],
+   "MAT_22": [
+    "BD",
+    10
+   ],
+   "MAT_23": [
+    "AD",
+    10
+   ],
+   "MAT_10": [
+    "LT",
+    10
+   ],
+   "MAT_11": [
+    "PD",
+    10
+   ],
+   "MAT_05": [
+    "FU",
+    12
+   ],
+   "MAT_09": [
+    "MX",
+    10
+   ],
+   "MAT_25": [
+    "FS",
+    10
+   ]
+  },
+  "sources": [
+   {
+    "material": "MAT_20",
+    "segment": "SEG_022",
+    "per_day": 15.3,
+    "qty": 12.5
+   },
+   {
+    "material": "MAT_21",
+    "segment": "SEG_022",
+    "per_day": 7.65,
+    "qty": 4.2
+   },
+   {
+    "material": "MAT_22",
+    "segment": "SEG_022",
+    "per_day": 7.65,
+    "qty": 1.8
+   },
+   {
+    "material": "MAT_23",
+    "segment": "SEG_022",
+    "per_day": 7.65,
+    "qty": 0.5
+   },
+   {
+    "material": "MAT_24",
+    "segment": "SEG_023",
+    "per_day": 8.5,
+    "qty": 1200
+   },
+   {
+    "material": "MAT_15",
+    "segment": "SEG_024",
+    "per_day": 1.2,
+    "qty": 6000
+   }
+  ],
+  "routes": {
+   "MAT_20": [
+    {
+     "seg": "SEG_017",
+     "kind": "consume"
+    }
+   ],
+   "MAT_21": [
+    {
+     "seg": "SEG_017",
+     "kind": "consume"
+    }
+   ],
+   "MAT_22": [
+    {
+     "seg": "SEG_017",
+     "kind": "consume"
+    }
+   ],
+   "MAT_23": [
+    {
+     "seg": "SEG_017",
+     "kind": "consume"
+    }
+   ],
+   "MAT_19": [
+    {
+     "seg": "SEG_008",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_053",
+     "kind": "step",
+     "scrap": 0.02
+    },
+    {
+     "seg": "SEG_019",
+     "kind": "rename",
+     "to": "MAT_18",
+     "length_per_mass": 20
+    }
+   ],
+   "MAT_18": [
+    {
+     "seg": "SEG_054",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_018",
+     "kind": "consume"
+    }
+   ],
+   "MAT_16": [
+    {
+     "seg": "SEG_055",
+     "kind": "step",
+     "scrap": 0.03
+    },
+    {
+     "seg": "SEG_005",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_020",
+     "kind": "rename",
+     "to": "MAT_25"
+    }
+   ],
+   "MAT_25": [
+    {
+     "seg": "SEG_005",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_009",
+     "kind": "split"
+    }
+   ],
+   "MAT_24": [
+    {
+     "seg": "SEG_005",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_020",
+     "kind": "rename",
+     "to": "MAT_17"
+    }
+   ],
+   "MAT_17": [
+    {
+     "seg": "SEG_005",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_010",
+     "kind": "split"
+    }
+   ],
+   "MAT_15": [
+    {
+     "seg": "SEG_005",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_011",
+     "kind": "consumable"
+    }
+   ],
+   "MAT_01": [
+    {
+     "seg": "SEG_027",
+     "kind": "step",
+     "scrap": 0.2
+    },
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_028",
+     "kind": "rename",
+     "to": "MAT_10"
+    }
+   ],
+   "MAT_10": [
+    {
+     "seg": "SEG_027",
+     "kind": "step",
+     "scrap": 0.08
+    },
+    {
+     "seg": "SEG_027",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_027",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_013",
+     "kind": "consume"
+    }
+   ],
+   "MAT_03": [
+    {
+     "seg": "SEG_027",
+     "kind": "step",
+     "scrap": 0.01
+    },
+    {
+     "seg": "SEG_027",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_031",
+     "kind": "rename",
+     "to": "MAT_11"
+    }
+   ],
+   "MAT_11": [
+    {
+     "seg": "SEG_011",
+     "kind": "dispense",
+     "to": "MAT_04"
+    }
+   ],
+   "MAT_04": [
+    {
+     "seg": "SEG_032",
+     "kind": "step",
+     "scrap": 0.05
+    },
+    {
+     "seg": "SEG_032",
+     "kind": "step",
+     "useasis": 0.25
+    },
+    {
+     "seg": "SEG_032",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_014",
+     "kind": "consume"
+    }
+   ],
+   "MAT_07": [
+    {
+     "seg": "SEG_034",
+     "kind": "step",
+     "scrap": 0.06
+    },
+    {
+     "seg": "SEG_035",
+     "kind": "step",
+     "scrap": 0.05
+    },
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_014",
+     "kind": "consume",
+     "alt": {
+      "SEG_013": 0.34
+     }
+    }
+   ],
+   "MAT_02": [
+    {
+     "seg": "SEG_037",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_002",
+     "kind": "store_out"
+    },
+    {
+     "seg": "SEG_038",
+     "kind": "step",
+     "scrap": 0.05
+    },
+    {
+     "seg": "SEG_039",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_038",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_002",
+     "kind": "store_out"
+    },
+    {
+     "seg": "SEG_038",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_039",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_002",
+     "kind": "store_out"
+    },
+    {
+     "seg": "SEG_038",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_039",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_040",
+     "kind": "rename",
+     "to": "MAT_05"
+    }
+   ],
+   "MAT_05": [
+    {
+     "seg": "SEG_041",
+     "kind": "step",
+     "scrap": 0.05,
+     "rework_to": "MAT_02:1"
+    },
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_002",
+     "kind": "store_out"
+    },
+    {
+     "seg": "SEG_042",
+     "kind": "step",
+     "to": "MAT_06",
+     "useasis": 0.2
+    }
+   ],
+   "MAT_06": [
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_002",
+     "kind": "store_out"
+    },
+    {
+     "seg": "SEG_038",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_021",
+     "kind": "rename",
+     "to": "MAT_13"
+    }
+   ],
+   "MAT_13": [
+    {
+     "seg": "SEG_043",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_002",
+     "kind": "store_out"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step",
+     "useasis": 0.02
+    },
+    {
+     "seg": "SEG_043",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_002",
+     "kind": "store_out"
+    },
+    {
+     "seg": "SEG_043",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_043",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_043",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_043",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_015",
+     "kind": "consume"
+    }
+   ],
+   "MAT_12": [
+    {
+     "seg": "SEG_043",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_047",
+     "kind": "rename",
+     "to": "MAT_09"
+    }
+   ],
+   "MAT_09": [
+    {
+     "seg": "SEG_043",
+     "kind": "step",
+     "scrap": 0.02
+    },
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_002",
+     "kind": "store_out"
+    },
+    {
+     "seg": "SEG_016",
+     "kind": "consume",
+     "alt": {
+      "SEG_012": 0.04
+     }
+    }
+   ],
+   "MAT_14": [
+    {
+     "seg": "SEG_043",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_002",
+     "kind": "store_out"
+    },
+    {
+     "seg": "SEG_050",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_002",
+     "kind": "store_out"
+    },
+    {
+     "seg": "SEG_043",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    }
+   ],
+   "MAT_08": [
+    {
+     "seg": "SEG_044",
+     "kind": "step"
+    },
+    {
+     "seg": "SEG_001",
+     "kind": "store_in"
+    },
+    {
+     "seg": "SEG_002",
+     "kind": "store_out"
+    }
+   ]
+  },
+  "merges": {
+   "SEG_017": {
+    "inputs": {
+     "MAT_20": 2,
+     "MAT_21": 1,
+     "MAT_22": 1,
+     "MAT_23": 1
+    },
+    "output": "MAT_19",
+    "unit_assembly": false,
+    "residual_ratio": 0.97
+   },
+   "SEG_018": {
+    "inputs": {
+     "MAT_18": 2
+    },
+    "output": "MAT_16",
+    "unit_assembly": false,
+    "residual_ratio": 1.0
+   },
+   "SEG_013": {
+    "inputs": {
+     "MAT_10": 1,
+     "MAT_07": 1
+    },
+    "output": "MAT_03",
+    "unit_assembly": true
+   },
+   "SEG_014": {
+    "inputs": {
+     "MAT_04": 1,
+     "MAT_07": 2
+    },
+    "output": "MAT_02",
+    "unit_assembly": true
+   },
+   "SEG_015": {
+    "inputs": {
+     "MAT_13": 3
+    },
+    "output": "MAT_12",
+    "unit_assembly": true
+   },
+   "SEG_016": {
+    "inputs": {
+     "MAT_09": 2
+    },
+    "output": "MAT_14",
+    "unit_assembly": true
+   }
+  },
+  "splits": {
+   "SEG_009": {
+    "input": "MAT_25",
+    "output": "MAT_01",
+    "n_out_median": 200,
+    "n_out_sigma": 0.35,
+    "spread_min": 240
+   },
+   "SEG_010": {
+    "input": "MAT_17",
+    "output": "MAT_07",
+    "n_out_median": 150,
+    "n_out_sigma": 0.4,
+    "spread_min": 180
+   },
+   "SEG_012": {
+    "input": "MAT_09",
+    "output": "MAT_08",
+    "n_out_median": 6,
+    "n_out_sigma": 0.0,
+    "spread_min": 5
+   }
+  },
+  "consumables": {
+   "SEG_011": {
+    "consumable": "MAT_15",
+    "uses_median": 900,
+    "uses_sigma": 0.3,
+    "bump_segment": "SEG_056",
+    "refill_every": 120
+   }
+  },
+  "hold_loops": {
+   "rate_per_step": 0.0006,
+   "cycles_median": 260,
+   "cycles_sigma": 0.7,
+   "gap_min": 45,
+   "materials": [
+    "MAT_02",
+    "MAT_05",
+    "MAT_06",
+    "MAT_13",
+    "MAT_14"
+   ],
+   "segments": [
+    "SEG_001",
+    "SEG_002"
+   ]
+  },
+  "location_types": {
+   "storage_move": "STORAGE",
+   "line_step": "LINE",
+   "transformation": "LINE",
+   "creation": "DOCK",
+   "overrides": {
+    "SEG_038": "STATION",
+    "SEG_039": "STATION",
+    "SEG_040": "STATION",
+    "SEG_041": "STATION",
+    "SEG_047": "STATION_GROUP",
+    "SEG_004": "STATION",
+    "SEG_058": "STORAGE"
+   }
+  },
+  "equipment": {
+   "areas": 8
+  },
+  "operators": {
+   "count": 120,
+   "fill": 0.5
+  },
+  "recipes": {
+   "count": 40,
+   "segment_share": 0.6,
+   "keys": [
+    "R_01",
+    "R_02",
+    "R_03",
+    "R_04",
+    "R_05",
+    "R_06",
+    "R_07"
+   ]
+  },
+  "properties": {
+   "pool_size": 260,
+   "keys_per_segment": [
+    10,
+    22
+   ],
+   "prefix": "P_",
+   "null_share": 0.15
+  },
+  "disposition": {
+   "n_codes": 120,
+   "zipf": 1.1,
+   "processes": 20,
+   "case_variant_from_week": 4,
+   "case_variant_share": 0.3,
+   "keys": [
+    "D_1",
+    "D_2",
+    "D_3",
+    "D_4",
+    "D_5"
+   ],
+   "values": {
+    "scrap": "DISP_1",
+    "useasis": "DISP_2",
+    "variant": "disp_1"
+   },
+   "statuses": {
+    "complete": "ST_1",
+    "scrap": "ST_2"
+   }
+  },
+  "unit_mass": "MU",
+  "external_ref": {
+   "materials": [
+    "MAT_16",
+    "MAT_17"
+   ],
+   "prefix": "X"
+  },
+  "churn": {
+   "per_week": {
+    "segment": 2.2,
+    "material": 0.3,
+    "equipment": 0.9,
+    "operator": 2.0,
+    "json_key_add": 3.5,
+    "json_key_retire": 1.5
+   },
+   "ephemeral_segment_share": 0.5,
+   "structural": [
+    {
+     "day": 42,
+     "kind": "new_input_material",
+     "merge": "SEG_014",
+     "replace": "MAT_07",
+     "share": 0.35
+    },
+    {
+     "day": 42,
+     "kind": "insert_step",
+     "material": "MAT_04",
+     "after": "SEG_032",
+     "share": 0.4
+    },
+    {
+     "day": 120,
+     "kind": "insert_step",
+     "material": "MAT_02",
+     "after": "SEG_038",
+     "share": 1.0
+    },
+    {
+     "day": 200,
+     "kind": "new_input_material",
+     "merge": "SEG_017",
+     "replace": "MAT_23",
+     "share": 1.0
+    },
+    {
+     "day": 235,
+     "kind": "insert_step",
+     "material": "MAT_13",
+     "after": "SEG_043",
+     "share": 0.6
+    }
+   ]
+  },
+  "anomalies": {
+   "time_order": 0.0003,
+   "remint": 0.0004,
+   "prevseg_null": 0.35,
+   "legacy_lots": {
+    "MAT_10": 1800,
+    "MAT_11": 220,
+    "MAT_07": 500,
+    "MAT_05": 300,
+    "MAT_13": 150,
+    "MAT_09": 30
+   }
+  },
+  "duplicates": {
+   "twin": 0.56,
+   "exact": 0.036,
+   "conflict": 0.006
+  },
+  "cohort_outcome_segment": "SEG_041",
+  "scrap": {
+   "segment": "SEG_057",
+   "coded_share": 0.6,
+   "store_share": 0.12,
+   "store_segments": [
+    "SEG_001",
+    "SEG_002"
+   ],
+   "disposal_segment": "SEG_058",
+   "recover_share": 0.004,
+   "recover_segment": "SEG_059"
+  }
+ }
+}

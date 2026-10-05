@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+out/
+*.egg-info/
+dist/
+build/
+.tmp/
+# uv.lock is not committed: the exact pins in pyproject.toml fix every runtime package, and each machine
+# resolves its own lock against its own package index
+uv.lock

@@ -1,0 +1,14 @@
+# Small scenario: generates in seconds. The tests use it, and expected/smoke/ holds its expected answers.
+name: smoke
+seed: 11
+profile: default
+days: 12
+base_days: 8
+volume:
+  scale: 0.15
+  ramp_last_over_first: 1.2
+cohorts:
+  - segment: SEG_032
+    day: 4
+    effect: 0.5
+    background: 0.03
